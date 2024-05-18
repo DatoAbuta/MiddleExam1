@@ -1,0 +1,20 @@
+{
+  "name": "midexam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "bin": {
+    "expense-cli": "main.js"
+  },
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "nodemon": "^3.1.0"
+  }
+}
